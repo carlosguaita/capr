@@ -13,7 +13,7 @@ int main (int argc, char *argv[]) {
 
     montoanual=montoinicial/tiempo;
     int j=1;
-    printf("Año\t\tinteres\t\tcuota mensual\n");
+    printf("Año\t\tinteres\t\tcuota mensual anual\n");
     for (int i = 0; i < tiempo; i++)
     {
          interes1=(montoinicial-montoanual*i)*tasainteres;
